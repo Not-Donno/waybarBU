@@ -1,4 +1,4 @@
-# 🖤 Custom Waybar Setup  
+# Custom Waybar Setup  
 
 A minimalistic **black & white themed Waybar** configuration designed for **Hyprland**.  
 This setup focuses on a clean floating look, glowing workspace dots, and well-aligned modules for a modern feel.  
@@ -23,10 +23,11 @@ This setup focuses on a clean floating look, glowing workspace dots, and well-al
 ---
 
 ## 📸 Screenshot
-(Screenshot/Screenshot.png)
+![Waybar Screenshot](Screenshot/Screenshot.png)
+
 ---
 
 ## ⚙️ Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/Not-Donno/yourrepo.git ~/.config/waybar
+   git clone https://github.com/yourusername/yourrepo.git ~/.config/waybar
