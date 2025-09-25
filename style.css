@@ -1,0 +1,132 @@
+/* === Global Bar Settings === */
+* {
+  font-family: "JetbrainsMono Nerd Font";
+  font-size: 15px;
+}
+
+window#waybar {
+  background: rgba(0, 0, 0, 0.85);
+  padding: 4px 10px;    /* vertical + horizontal padding */
+  min-height: 28px;     /* bar height */
+  border-radius: 12px;  /* rounded corners */
+}
+
+window#waybar.hidden {
+  opacity: 0.2;
+}
+
+/* === Left & Right Modules === */
+#custom-fedoraicon,
+#clock,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#idle_inhibitor,
+#pulseaudio,
+#pulseaudio_slider,
+#network,
+#custom-bluetooth,
+#custom-power {
+  background: linear-gradient(145deg, #2a2a2a, #555555);
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 2px 10px;   /* vertical + horizontal padding */
+  margin: 0 4px;
+  min-height: 24px;    /* slightly smaller than bar for floating look */
+  min-width: 28px;
+  transition: background 0.3s ease;
+}
+
+/* Hover effect for modules */
+#custom-fedoraicon:hover,
+#clock:hover,
+#cpu:hover,
+#memory:hover,
+#disk:hover,
+#temperature:hover,
+#idle_inhibitor:hover,
+#pulseaudio:hover,
+#pulseaudio_slider:hover,
+#network:hover,
+#custom-bluetooth:hover,
+#custom-power:hover {
+  background: linear-gradient(145deg, #3a3a3a, #777777);
+}
+
+/* === Workspaces Section === */
+#workspaces {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 2px 8px;
+  margin: 0 4px;
+  min-height: 24px;
+}
+
+#workspaces button {
+  background: transparent;
+  border: none;
+  padding: 2px 6px;
+  margin: 0 2px;
+  color: #bbbbbb;
+  font-size: 14px;
+  border-radius: 6px;
+}
+
+/* Active workspace dot glow */
+#workspaces button.active {
+  color: #ffffff;
+}
+
+#workspaces button.active span {
+  text-shadow: 0 0 6px #ffffff, 0 0 10px #ffffff;
+}
+
+/* Occupied but not active */
+#workspaces button.occupied {
+  color: #cccccc;
+}
+
+/* Hover effect for workspaces */
+#workspaces button:hover {
+  color: #ffffff;
+}
+
+/* === Taskbar Section === */
+#taskbar {
+  background: transparent;
+  border-radius: 10px;
+  padding: 2px 5px;
+  margin: 0 4px;
+  min-height: 24px;
+}
+
+#taskbar button {
+  padding: 2px 6px;
+  margin: 0 3px;
+  border-radius: 6px;
+}
+
+#taskbar button.active {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+#taskbar button:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* === Icons Color === */
+#custom-fedoraicon i,
+#clock i,
+#cpu i,
+#memory i,
+#disk i,
+#temperature i,
+#idle_inhibitor i,
+#pulseaudio i,
+#pulseaudio_slider i,
+#network i,
+#custom-bluetooth i,
+#custom-power i {
+  color: #ffffff;
+}
