@@ -23,8 +23,7 @@ This setup focuses on a clean floating look, glowing workspace dots, and well-al
 ---
 
 ## 📸 Screenshot
-![Waybar Screenshot](Screenshot/screenshot.png)
-
+(Screenshot/Screenshot.png)
 ---
 
 ## ⚙️ Installation
